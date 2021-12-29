@@ -3,11 +3,25 @@
     --primary-color: #325c8e;
 }
 
+body {
+    margin: 0;
+}
+
 * {
     color: var(--dark-text);
 }
 
 .navbar {
     display: flex;
-    border-bottom: 2px solid #ebebeb;
+    justify-content: flex-end;
+    align-items: baseline;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.nav-item {
+    margin: 1rem;
+}
+
+#page-title {
+    margin-right: auto;
 }
