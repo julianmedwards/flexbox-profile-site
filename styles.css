@@ -23,18 +23,27 @@ body {
 }
 
 .nav-item {
-    margin: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 1.5rem 1rem;
 }
 
 #page-title {
+    font-size: 1.2em;
     margin-right: auto;
+    font-weight: 600;
+}
+
+#call-to-action {
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* Main Content */
 
 .content {
     display: flex;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 4.5rem - 1px);
 }
 
 .bg-img {
