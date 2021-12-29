@@ -111,3 +111,17 @@ body {
     color: white;
     margin: 0 0.5em;
 }
+
+/* Social Links */
+
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.social-links a i {
+    color: var(--grey);
+}
