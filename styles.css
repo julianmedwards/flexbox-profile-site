@@ -103,4 +103,11 @@ body {
 
 #bio-button {
     margin: 2rem 0;
+    padding: 0.7em;
+}
+
+#bio-button i {
+    vertical-align: sub;
+    color: white;
+    margin: 0 0.5em;
 }
