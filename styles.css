@@ -1,6 +1,7 @@
 :root {
     --dark-text: #313131;
     --primary-color: #325c8e;
+    --primary-darkened: #294261;
 }
 
 body {
@@ -55,4 +56,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+
+/* Buttons */
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: var(--primary-darkened);
 }
