@@ -1,0 +1,13 @@
+:root {
+    --dark-text: #313131;
+    --primary-color: #325c8e;
+}
+
+* {
+    color: var(--dark-text);
+}
+
+.navbar {
+    display: flex;
+    border-bottom: 2px solid #ebebeb;
+}
