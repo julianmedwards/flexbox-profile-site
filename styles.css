@@ -58,37 +58,36 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 .bio-items {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    margin: auto;
+    width: 70%;
 }
 
 .title {
-    margin: 0.25rem 0;
+    margin: 0.5rem 0;
 }
 
 .textblock {
-    margin: 0;
+    margin: 2rem 0;
 }
 
 .supertitle {
+    font-size: 0.85rem;
     color: var(--grey);
-    margin: 2rem 0 0.25rem 0;
+    margin: 2em 0 0.5em 0;
 }
 
 .subscript {
-    margin: 0.25rem 0 0.25rem 0;
+    font-size: 0.85rem;
+    margin: 0 0 0.5em 0;
 }
 
 /* Buttons */
 
 .button {
+    display: block;
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
@@ -103,6 +102,5 @@ body {
 }
 
 #bio-button {
-    align-self: stretch;
     margin: 2rem 0;
 }
