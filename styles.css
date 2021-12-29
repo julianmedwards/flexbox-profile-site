@@ -10,6 +10,7 @@ body {
 
 * {
     color: var(--dark-text);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar */
